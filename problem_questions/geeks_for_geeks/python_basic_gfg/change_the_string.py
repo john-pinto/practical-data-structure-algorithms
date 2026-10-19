@@ -1,5 +1,6 @@
 # https://www.geeksforgeeks.org/problems/change-the-string3541/0
 # Change the string case depending on the first char of the string
+
 def check_case(s: str):
     if s[0] >= 'A' and s[0] <= 'Z':
         return 'upper'
